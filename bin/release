@@ -2,8 +2,8 @@
 
 BUILD_DIR=$1
 
-echo "BUILD_DIR: ${BUILD_DIR}"
-ls -la ${BUILD_DIR}/bin/run.sh
+echo "BUILD_DIR: ${BUILD_DIR}" >>outfile
+ls -la ${BUILD_DIR}/bin/run.sh >>outfile
 
 cat << EOF
 ---
