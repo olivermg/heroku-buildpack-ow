@@ -2,6 +2,9 @@
 
 BUILD_DIR=$1
 
+echo "BUILD_DIR: ${BUILD_DIR}"
+ls -la ${BUILD_DIR}/bin/run.sh
+
 cat << EOF
 ---
 addons:
