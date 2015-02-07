@@ -5,7 +5,7 @@
 BUILD_DIR=$1
 
 if [ -x "${BUILD_DIR}/bin/run.sh" ]; then
-	echo "found run script"
+	echo "run.sh App"
 	exit 0
 else
 	exit 1
