@@ -13,6 +13,3 @@ echo "ENV_DIR: ${ENV_DIR}"
 
 ls -la ${ENV_DIR}
 
-PORT=$(cat ${ENV_DIR}/PORT)
-export PORT
-
