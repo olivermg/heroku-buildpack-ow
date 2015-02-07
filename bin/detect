@@ -4,7 +4,7 @@
 
 BUILD_DIR=$1
 
-if [ -x "${BUILD_DIR}/run" ]; then
+if [ -x "${BUILD_DIR}/bin/run.sh" ]; then
 	echo "found run script"
 	exit 0
 else
