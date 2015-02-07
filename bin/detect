@@ -4,8 +4,8 @@
 
 BUILD_DIR=$1
 
-if [ -x "${BUILD_DIR}/bin/run.sh" ]; then
-	echo "run.sh App"
+if [ -x "${BUILD_DIR}/bin/run" ]; then
+	echo "run App"
 	exit 0
 else
 	exit 1
